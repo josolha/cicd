@@ -8,7 +8,7 @@ class HomeController {
 
     @GetMapping("/")
     fun home(): String {
-        return "home"
+        return "home 수정함"
     }
 
     @GetMapping("/healthz")
